@@ -15,7 +15,7 @@ def link
 end
 
 def any_phrase(phrase)
-  "#{phrase}" = phraseany
-  phraseany = "Do A Barrel Roll!"
+  "#{phrase}" == phraseany
+  phraseany == "Do A Barrel Roll!"
   puts phraseany
 end
