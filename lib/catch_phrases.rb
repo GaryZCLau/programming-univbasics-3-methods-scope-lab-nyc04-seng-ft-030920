@@ -14,8 +14,8 @@ def link
   puts phraselink
 end
 
-def any_phrase(any)
-  any = phraseany
+def any_phrase(phrase)
+  "#{phrase}" = phraseany
   phraseany = "Do A Barrel Roll!"
   puts phraseany
 end
